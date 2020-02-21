@@ -19,3 +19,5 @@ server.get('/marvel', (req, res) => {
       res.status(500).json(err);
     })
 })
+
+module.exports = server;
